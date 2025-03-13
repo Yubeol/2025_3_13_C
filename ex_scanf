@@ -1,0 +1,11 @@
+#include <stdio.h>
+//#define _CRT_SECURE_NO_WARNINGS
+
+int main(void) {
+	int age;
+	printf("몇살? ");
+	scanf_s("%d", &age);
+
+	printf("너의 나이는 %d살이구나~\n", age);
+	return 0;
+}
