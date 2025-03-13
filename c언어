@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main(void) {
+	printf("hello, C!!! 무지 쉽다. 모를 수 없다.\n");
+	int grade = 1;
+	double pi = 3.14;
+	char name[10] = "dooli", gender = 'm';
+	char dept[] = "컴공";
+
+	printf("나는 %s과 %d학년이다.\n",dept, grade);
+	printf("나는 %s과 %d학년이다.\n", dept, grade + 1);
+	printf("나는 컴공과 %d학년이다.\n", 4);
+	printf("원의 원주율은 %.2lf이다.\n", pi);
+	printf("내 이름은 %s이고, 성별은 %c이다.\n", name, gender);
+
+	return 0;
+}
